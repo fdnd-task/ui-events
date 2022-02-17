@@ -4,7 +4,7 @@
 var items = document.querySelectorAll("a");
 console.log(items)
 var touchy = 'ontouchstart' in window;
-document.querySelector("section").insertAdjacentHTML("afterend", "<a href='#'>ontouchstart: " + touchy + "</a>");
+document.querySelector("section").insertAdjacentHTML("beforeend", "<a href='#'>ontouchstart: " + touchy + "</a>");
 
 
 //EVENT LISTENERS
