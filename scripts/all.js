@@ -4,17 +4,23 @@
 var items = document.querySelectorAll("a");
 console.log(items)
 var touchy = 'ontouchstart' in window;
-console.log("touchstart: " + touchy);
-document.querySelector("section").insertAdjacentHTML("afterbegin", "<a>ontouchstart: " + touchy + "</a>");
+document.querySelector("section").insertAdjacentHTML("afterend", "<a href='#'>ontouchstart: " + touchy + "</a>");
 
 
 //EVENT LISTENERS
 //add eventlisteners
 items.forEach(element => {
-    element.addEventListener("click",color_green);
+    
+    if(touchy){
+        element.addEventListener("click",color_green);
+        element.addEventListener("touchstart",longpress_start);
+        element.addEventListener("touchend",longpress_clear);
+    }else{
+        element.addEventListener("mousedown",color_green);
+        element.addEventListener("mousedown",longpress_start);
+        element.addEventListener("mouseup",longpress_clear);
+    }
     element.addEventListener("dblclick",color_purple);
-    element.addEventListener("touchstart",longpress_start);
-    element.addEventListener("touchend",longpress_clear);
 });
 //FUNCTIONS
 function color_green(e){
