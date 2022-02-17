@@ -13,7 +13,7 @@ document.querySelector("section").insertAdjacentHTML("afterbegin", "<a>ontouchst
 items.forEach(element => {
     element.addEventListener("click",color_green);
     element.addEventListener("dblclick",color_purple);
-    element.addEventListener("touchstart",longpress);
+    element.addEventListener("touchstart",longpress_start);
     element.addEventListener("touchend",longpress_clear);
 });
 //FUNCTIONS
@@ -64,7 +64,7 @@ function keydown(e){
 //LONGPRESS 
 //set timers
 //na 2 sec krijgt het element een highlight
-function longpress(e){
+function longpress_start(e){
     // console.log("longpress", this)
     this.timer = window.setTimeout(color_highlight,2000,this);
     e.preventDefault();
