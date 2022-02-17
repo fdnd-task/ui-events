@@ -3,23 +3,29 @@
 //query elementen
 var items = document.querySelectorAll("a");
 console.log(items)
+var touchy = 'ontouchstart' in window;
+console.log("touchstart: " + touchy);
+document.querySelector("section").insertAdjacentHTML("afterbegin", "<a>ontouchstart: " + touchy + "</a>");
+
 
 //EVENT LISTENERS
 //add eventlisteners
 items.forEach(element => {
-    element.addEventListener("mousedown",color_green);
+    element.addEventListener("click",color_green);
     element.addEventListener("dblclick",color_purple);
-    element.addEventListener("mousedown",longpress);
-    element.addEventListener("mouseup",longpress_clear);
+    element.addEventListener("touchstart",longpress);
+    element.addEventListener("touchend",longpress_clear);
 });
 //FUNCTIONS
-function color_purple(){
-    this.classList.toggle("purple")
-    this.classList.remove("green")
-}
-function color_green(){
+function color_green(e){
     this.classList.toggle("green")
-    this.classList.remove("purple")
+    // this.classList.remove("purple")
+    e.preventDefault();
+}
+function color_purple(e){
+    this.classList.toggle("purple")
+    // this.classList.remove("green")
+    e.preventDefault();
 }
 function color_highlight(me){
     console.log("clearcolor", me)
@@ -58,9 +64,10 @@ function keydown(e){
 //LONGPRESS 
 //set timers
 //na 2 sec krijgt het element een highlight
-function longpress(){
+function longpress(e){
     // console.log("longpress", this)
     this.timer = window.setTimeout(color_highlight,2000,this);
+    e.preventDefault();
 }
 //clear time out 
 function longpress_clear(){
