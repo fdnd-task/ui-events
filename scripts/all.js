@@ -69,6 +69,7 @@ function longpress_start(e){
     this.timer = window.setTimeout(color_highlight,2000,this);
     e.preventDefault();
 }
+
 //clear time out 
 function longpress_clear(){
     clearTimeout(this.timer);
