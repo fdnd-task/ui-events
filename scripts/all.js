@@ -58,9 +58,10 @@ function keydown(e){
 //LONGPRESS 
 //set timers
 //na 2 sec krijgt het element een highlight
-function longpress(){
+function longpress(e){
     // console.log("longpress", this)
     this.timer = window.setTimeout(color_highlight,2000,this);
+e.preventDefault();
 }
 //clear time out 
 function longpress_clear(){
