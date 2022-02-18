@@ -11,18 +11,18 @@ items.forEach(element => {
 });
 //functions
 function color_purple(){
-    // console.log("color_change", this)
+    console.log("color_purple", this)
     this.classList.add("purple")
 }
 function color_green(){
-    // console.log("color_highlight", this)
+    console.log("color_green", this)
     this.classList.add("green")
 }
 
 //KEYDOWN
 document.addEventListener("keydown",keydown)
 function keydown(e){
-    console.log(e.key)
+    console.log("keydown: " + e.key)
     // if(e.key == "d"){
     //     console.log("we hebben een "+e.key)
     //     document.querySelectorAll(".d").forEach(element => {

@@ -24,16 +24,19 @@ items.forEach(element => {
 });
 //FUNCTIONS
 function color_green(e){
+    console.log("color_green", this)
     this.classList.toggle("green")
     // this.classList.remove("purple")
     e.preventDefault();
 }
 function color_purple(e){
+    console.log("color_purple", this)
     this.classList.toggle("purple")
     // this.classList.remove("green")
     e.preventDefault();
 }
 function color_highlight(me){
+    console.log("color_highlight", this)
     console.log("clearcolor", me)
     me.classList.toggle("highlight")
     me.classList.remove("purple")
@@ -43,7 +46,7 @@ function color_highlight(me){
 //KEYDOWN
 document.addEventListener("keydown",keydown)
 function keydown(e){
-    console.log(e.key)
+    console.log("keydown: " + e.key)
     //als de keydown een 'x' is
     //alle classes weghalen en functie stoppen
     if(e.key == "x"){
@@ -71,7 +74,7 @@ function keydown(e){
 //set timers
 //na 2 sec krijgt het element een highlight
 function longpress_start(e){
-    // console.log("longpress", this)
+    //console.log("longpress", this)
     this.timer = window.setTimeout(color_highlight,2000,this);
     e.preventDefault();
 }
