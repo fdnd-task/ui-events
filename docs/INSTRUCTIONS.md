@@ -131,7 +131,5 @@ Sluit daarna het issue, en ga door met de volgende interactie (door opnieuw te A
 
 Deze opdracht is done als:
 
-- [ ] Je werk is te bekijken via GitHub Pages;
-- [ ] Je hebt minstens tien interactie experimenten in code geïmplementeerd;
-- [ ] Per experiment heb je een issue met de schetsen voor de interactie, een breakdown schets met een korte uitleg, en een uitleg hoe je code werkt;
-- [ ] Je hebt op al je interacties via issues feedback gehad van een mentor;
+- [ ] Je hebt de 10 basis interacties stap voor stap voltooid, en je voortgang en breakdown schetsen zijn in issues opgenomen.
+- [ ] Optioneel: Je hebt enkele of alle advanced interacties stap voor stap voltooid, en je voortgang en breakdown schetsen zijn in issues opgenomen.
