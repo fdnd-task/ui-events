@@ -14,32 +14,54 @@ Op websites zijn veel verschillende vormen van interactie met gebruikers mogelij
 
 In onderstaande afbeelding zie je 20 verschillende links, aan tenminste 12 daarvan ga jij een gebruikersinteractie toevoegen.
 
-💪 Als je meer uitdaging wilt, kun je ze alle 20 van een interactie voorzien.
-
 ![](screenshot.png)
 
-In deze opdracht experimenteer je met verschillende UI events en gaandeweg leer je de mogelijkheden van de browser beter kennen.
+In deze opdracht experimenteer je met verschillende UI events en gaandeweg leer je de mogelijkheden van de browser beter kennen. Zoek niet naar kant-en-klare oplossingen op Internet, maar werk ze zelf stap-voor-stap uit. Daar leer je het meest van.
 
 Fork allereerst deze repository naar jouw eigen GitHub account, en Clone deze naar je eigen computer. Zet Issues aan, publiceer de repository alvast op GitHub Pages, en zorg dat je een live link bij About hebt staan.
 
-De eerste interactie (met een _click_ event) hebben we al voor je voorgedaan: als je op het 2e linkje (“design”) klikt, springt deze omhoog. Je gaat nu voor de overige links ook interacties bedenken, maken en bespreken met een mentor.
+De eerste interactie (met een _click_ event) hebben we al voor je voorgedaan: als je op het 2e linkje (“Design”) klikt, springt deze omhoog. Je gaat nu voor de overige links ook interacties bedenken, maken en bespreken met een mentor.
 
-Omdat deze deeltaak uit maximaal 20 kleinere taken (er zijn namelijk nog 19 elementen!) bestaat, doorloop je voor elke nieuwe interactie die je gaat maken de development lifecycle. Je weet ondertussen dat je dit bij elke opdracht, issue of taak meerdere malen doet. Je gaat hieronder voor elke interactie een issue aanmaken en alle stappen doorlopen.
+Omdat deze deeltaak uit maximaal 20 kleinere taken (er zijn namelijk nog 19 elementen!) bestaat, doorloop je voor elke nieuwe interactie die je gaat maken de _Development Lifecycle_. Je weet ondertussen dat je dit bij elke opdracht, issue of taak meerdere malen doet. Je gaat hieronder voor elke interactie een issue aanmaken en alle stappen doorlopen.
 
 
 ### Analyseren
 
-Je onderzoekt kort welke interactie je nu gaat maken, en denkt alvast na over hoe je dat zou kunnen doen. Bijvoorbeeld “Laat een link bibberen met CSS”.
+Onderzoek kort welke interactie je nu gaat maken. De volgorde mag je zelf bepalen, afhankelijk van welke uitdaging je wilt. Ze zijn opgebouwd van simpel naar steeds moeilijker. Kies bijvoorbeeld “Laat de Development link shaken als ik erop dubbelklik”.
 
-Gebruik de bronnen hieronder om een nieuw _UI Event_ te kiezen, die je interessant lijkt, en bepaal welke van de links je die interactie laat _triggeren_. Bijvoorbeeld “Laat de eerste link bibberen als ik erop dubbelklik”.
+Maak een nieuw issue aan op jouw ui-events repository, en geef deze de titel van je UI event, het linkje dat deze triggert, en de interactie (bijvoorbeeld “Laat de Development link shaken als ik erop dubbelklik”). Link naar specifieke bronnen die je denkt nodig te hebben, en beschrijf kort hoe je dit probleem denkt op te gaan lossen.
 
-💪 Wil je meer uitdaging nadat je wat van de UI events hebt uitgeprobeerd? Probeer dan zelf een _long press_ `CustomEvent` te maken, maak een _drag & drop_ interactie met `DragEvent`, of ga eens met het ingewikkeldere `DeviceMotionEvent` aan de slag.
+#### Hints en verwachting per link
 
-Maak een nieuw issue aan op jouw ui-events repository, en geef deze de titel van je UI event, het linkje dat deze triggert, en de interactie (bijvoorbeeld “Dubbelklik event op 1e link laat deze bibberen”). Link naar specifieke bronnen die je denkt nodig te hebben.
+##### Basic events en animaties
+
+1. Frontend: Click + scale animatie
+2. Design: Click + jump animatie
+3. &: Click + translate animatie
+4. Development: Double click + shake animatie
+5. Sprint 5: Focus + kleuren animatie
+6. Fix: Mouseover + skew animatie
+7. The: Mouseout + rotate animatie
+8. Flow: Mousedown en mouseup + flip en terug
+9. User: Keypress + kleur veranderen op basis van ingedrukte letter
+10. Interface: Keydown + blaas de link op als een ballon, en laat leeglopen als je het toetsenbord loslaat
+11. Events: Wheel of scroll + typografie wordt groter of kleiner, afhankelijk van hoe je scrollt
+12. Interaction: Mousemove + radial gradient die de muis volgt
+
+##### Advanced events en animaties
+
+13. User flow: Mousemove + de overige elementen vallen naar beneden
+14. Wireflow: Long press + linear gradient animatie
+15. Feedback: Pas na 10 keer klikken verandert de button kleur
+16. Feedforward: Escape toets indrukken op deze link + alle andere links worden grijs
+17. Labels: Deviceorientation of devicemotion + shake alle links
+18. States: Drag & drop + plaats deze link ergens anders
+19. Navigation: Deze link wil heel graag geklikt worden
+20. Code: Deze link wil niet geklikt worden
 
 #### Bronnen
 
-- [7 secrets for enhancing UX with micro-interactions @ dreamerux.com](https://www.dreamerux.com/articles/35y5fyrr4pifhbondc7r636nkvyoqg)
+- [Microinteraction @ Dribbble](https://dribbble.com/search/microinteraction)
 - [Mouse Events in Javascript @ Kirupa](https://www.kirupa.com/html5/mouse_events_in_javascript.htm)
 - [Working with the Keyboard @ Kirupa](https://www.kirupa.com/html5/keyboard_events_in_javascript.htm)
 - [Introduction to events @ MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
@@ -67,25 +89,7 @@ Voeg je schetsen toe als comment op je issue, beschrijf de interactie die je wil
 
 Implementeer de interactie door `main.js` en `style.css` aan te vullen met jouw code. Denk telkens na over nieuwe namen voor CSS classes en variabelen in JS, zodat je eerder gemaakte code niet breekt!
 
-#### In HTML & CSS
-
-Voeg tijdelijk een nieuwe class, die de interactie goed beschrijft (bijvoorbeeld `class="bibberen"`), toe aan een HTML element;
-
-Schrijf in CSS de regels om de interactie werkend te maken.
-
-Haal de tijdelijke class weer weg uit de HTML.
-
-#### In JavaScript
-
-Bedenk een naam die nog niet in gebruik is en _declareer_ die met `let` (bijvoorbeeld `let bibberLink`).
-
-Selecteer het juiste element uit de DOM met behulp van `document.querySelector()` en bewaar die in de variabele die je net gemaakt hebt.
-
-Gebruik `addEventListener()` om een event aan een element te koppelen, en gebruik hiervoor het event dat je hebt uitgezocht (bijvoorbeeld `dblclick`).
-
-Gebruik `classList.toggle()` om een andere class aan een element toe te voegen in de _callback functie_ (bijvoorbeeld `bibberLink.classList.toggle('bibberen')`.
-
-ProTip: Gebruik bij elke stap `console.log()` om te controleren of alles werkt zoals je verwacht dat het werkt.
+Tip: Gebruik in JavaScript regelmatig `console.log()` om te controleren of alles werkt zoals je verwacht.
 
 💪 Wat meer uitdaging nodig nadat je keyframe animaties hebt uitgespeeld? Kijk ook eens of je bijvoorbeeld een geluid af kunt spelen, de browser fullscreen kunt krijgen, of de pagina kunt delen. Of een View Transition af kunt vuren (meer hierover dinsdag bij de JS challenge).
 
@@ -109,7 +113,6 @@ Commit jouw code met de interactie die je zojuist geïmplementeerd hebt, en noem
 
 Push daarna je code naar GitHub.
 
-💪 Gesneden koek, deze stap? Kijk eens hoe Partial Commits je nu en in de toekomst kunnen gaan helpen.
 
 ### Testen
 
@@ -123,12 +126,10 @@ Schrijf als reactie op je issue heel kort op wat je opviel bij het testen.
 
 Sluit daarna het issue, en ga door met de volgende interactie (door opnieuw te Analyseren).
 
-💪 Wist je dat je in een issue of comment ook anderen op GitHub kunt mentionen en om feedback kunt vragen? Probeer je mentor maar eens in een issue te betrekken.
-
 
 ## Definition of done
 
 Deze opdracht is done als:
 
-- [ ] Je hebt de 10 basis interacties stap voor stap voltooid, en je voortgang en breakdown schetsen zijn in issues opgenomen.
+- [ ] Je hebt de 12 basis interacties stap voor stap voltooid, en je voortgang en breakdown schetsen zijn in issues opgenomen.
 - [ ] Optioneel: Je hebt enkele of alle advanced interacties stap voor stap voltooid, en je voortgang en breakdown schetsen zijn in issues opgenomen.

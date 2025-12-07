@@ -1,9 +1,9 @@
 /*
    De eerste interactie is al voor jullie uitgewerkt
-   Als je op het 12e linkje klikt (“Interaction”), springt deze omhoog
+   Als je op het 2e linkje klikt (Design), springt deze omhoog
 */
 
-// Stap 1: selecteer het 12e linkje, en sla deze op in een variabele
+// Stap 1: selecteer het Design linkje, en sla deze op in een variabele
 let interaction = document.querySelector('a[href="#design"]')
 
 // Stap 2: voeg de (click) event listener toe aan de link, met een callback functie
