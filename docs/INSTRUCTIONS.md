@@ -35,18 +35,18 @@ Maak een nieuw issue aan op jouw ui-events repository, en geef deze de titel van
 
 ##### Basic events en animaties
 
-1. Frontend: Click + scale animatie
+1. Frontend: Click + scale animatie (hint: transform scale)
 2. Design: Click + jump animatie
-3. &: Click + translate animatie
+3. &: Click + translate animatie (hint: translate)
 4. Development: Double click + shake animatie
 5. Sprint 5: Focus + kleuren animatie
-6. Fix: Mouseover + skew animatie
+6. Fix: Mouseover + verander tekst in de link (hint: textContent)
 7. The: Mouseout + rotate animatie
 8. Flow: Mousedown en mouseup + flip en terug
-9. User: Keypress + kleur veranderen op basis van ingedrukte letter
+9. User: Keyup + kleur veranderen op basis van ingedrukte letter (hint: event.key)
 10. Interface: Keydown + blaas de link op als een ballon, en laat leeglopen als je het toetsenbord loslaat
-11. Events: Wheel of scroll + typografie wordt groter of kleiner, afhankelijk van hoe je scrollt
-12. Interaction: Mousemove + radial gradient die de muis volgt
+11. Events: Wheel of scroll + typografie wordt groter of kleiner, afhankelijk van hoe je scrollt (hint: delta)
+12. Interaction: Mousemove + radial gradient die de muis volgt (hint: event.clientX, event.clientY & style.setProperty)
 
 ##### Advanced events en animaties
 
@@ -56,17 +56,13 @@ Maak een nieuw issue aan op jouw ui-events repository, en geef deze de titel van
 16. Feedforward: Escape toets indrukken op deze link + alle andere links worden grijs
 17. Labels: Deviceorientation of devicemotion + shake alle links
 18. States: Drag & drop + plaats deze link ergens anders
-19. Navigation: Deze link wil heel graag geklikt worden
+19. Navigation: Deze link wil heel graag geklikt worden + speel een geluid als je klikt
 20. Code: Deze link wil niet geklikt worden
 
 #### Bronnen
 
 - [Microinteraction @ Dribbble](https://dribbble.com/search/microinteraction)
-- [Mouse Events in Javascript @ Kirupa](https://www.kirupa.com/html5/mouse_events_in_javascript.htm)
-- [Working with the Keyboard @ Kirupa](https://www.kirupa.com/html5/keyboard_events_in_javascript.htm)
 - [Introduction to events @ MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
-- [UI Events @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/UI_Events)
-- [DeviceMotionEvent @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent)
 
 
 ### Ontwerpen
@@ -75,41 +71,34 @@ Onderzoek hoe je de interactie zou kunnen maken met CSS en JavaScript. Als je he
 
 Maak eerst een snelle schets van de interactie en feedback/feedforward die je de gebruiker wilt geven.
 
-Maak een breakdownschets om te onderzoeken welke JS en CSS je nodig hebt.
+Maak een breakdownschets om te onderzoeken welke JS en CSS je nodig hebt. Zoek niet naar kant-en-klare oplossingen op Internet, maar werk ze zelf stap-voor-stap uit.
 
 Voeg je schetsen toe als comment op je issue, beschrijf de interactie die je wilt maken, en link naar bronnen die je gebruikt hebt of gaat gebruiken.
 
 #### Bronnen
 
 - [Interactions: thinking & sketching them. @ UX-Planet](https://uxplanet.org/interactions-thinking-sketching-them-f3d4c1d11149)
+- [Mouse Events in Javascript @ Kirupa](https://www.kirupa.com/html5/mouse_events_in_javascript.htm)
+- [Working with the Keyboard @ Kirupa](https://www.kirupa.com/html5/keyboard_events_in_javascript.htm)
 - [How to Apply Disney’s 12 Principles of Animation to UI Design @ interaction-design.org](https://www.interaction-design.org/literature/article/ui-animation-how-to-apply-disney-s-12-principles-of-animation-to-ui-design)
+- [Animations @ web.dev](https://web.dev/learn/css/animations)
+- [querySelector @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+- [classList @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) 
+- [UI Events @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/UI_Events)
 
 
 ### Bouwen
 
 Implementeer de interactie door `main.js` en `style.css` aan te vullen met jouw code. Denk telkens na over nieuwe namen voor CSS classes en variabelen in JS, zodat je eerder gemaakte code niet breekt!
 
+Kijk nog eens naar [het driestappenplan](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/programming-user-interaction.md#het-3-stappenplan-waarmee-je-bijna-alles-kan) van vorige week en de voorbeelden in `main.js`.
+
 Tip: Gebruik in JavaScript regelmatig `console.log()` om te controleren of alles werkt zoals je verwacht.
-
-💪 Wat meer uitdaging nodig nadat je keyframe animaties hebt uitgespeeld? Kijk ook eens of je bijvoorbeeld een geluid af kunt spelen, de browser fullscreen kunt krijgen, of de pagina kunt delen. Of een View Transition af kunt vuren (meer hierover dinsdag bij de JS challenge).
-
-#### Bronnen
-
-- [Keyframe animaties @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
-- [Animations @ web.dev](https://web.dev/learn/css/animations)
-- Video: [… if you only know one thing about JavaScript … @ CSS-Tricks](https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javascript-recommend/)
-- Guide: [Mouse Events in Javascript @ Kirupa](https://www.kirupa.com/html5/mouse_events_in_javascript.htm)
-- Guide: [Working with the Keyboard @ Kirupa](https://www.kirupa.com/html5/keyboard_events_in_javascript.htm)
-- Guide: [Introduction to events @ MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
-- Reference: [querySelector @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
-- Reference: [classList @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) 
-- Reference: [UI Events @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/UI_Events)
-- Reference: [DeviceMotionEvent @ MDN](https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent)
 
 
 ### Integreren
 
-Commit jouw code met de interactie die je zojuist geïmplementeerd hebt, en noem in je commit message je interactie en het issue nummer waar je aan werkt (bijvoorbeeld “Bibberen als ik dubbelklik (#1)”.
+Commit jouw code met de interactie die je zojuist geïmplementeerd hebt, en noem in je commit message je interactie en het issue nummer waar je aan werkt.
 
 Push daarna je code naar GitHub.
 
