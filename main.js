@@ -11,12 +11,12 @@ designLink.addEventListener('click', jumpHandler)
 // Deze jumpHandler functie staat klaar voor als we 'm aanroepen; deze wordt dus
 // _niet_ meteen bij het laden van de pagina aangeroepen
 function jumpHandler() {
-
   // Stap 3: toggle een class op het element (zodra er dus op een link wordt geklikt)
   designLink.classList.toggle('jump')
 }
 
 // Extraatje, waardoor de class weer weggehaald wordt zodra de animatie afgelopen is
+// Dit is trouwens geen UIEvent, maar een AnimationEvent
 designLink.addEventListener('animationend', jumpHandler)
 
 
