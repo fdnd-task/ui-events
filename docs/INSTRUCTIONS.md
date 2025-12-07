@@ -22,7 +22,7 @@ In deze opdracht experimenteer je met verschillende UI events en gaandeweg leer 
 
 Fork allereerst deze repository naar jouw eigen GitHub account, en Clone deze naar je eigen computer. Zet Issues aan, publiceer de repository alvast op GitHub Pages, en zorg dat je een live link bij About hebt staan.
 
-De eerste interactie (met een _click_ event) hebben we al voor je voorgedaan: als je op het 12e linkje (“Interaction”) klikt, springt deze omhoog. Je gaat nu voor de overige links ook interacties bedenken, maken en bespreken met een mentor.
+De eerste interactie (met een _click_ event) hebben we al voor je voorgedaan: als je op het 2e linkje (“design”) klikt, springt deze omhoog. Je gaat nu voor de overige links ook interacties bedenken, maken en bespreken met een mentor.
 
 Omdat deze deeltaak uit maximaal 20 kleinere taken (er zijn namelijk nog 19 elementen!) bestaat, doorloop je voor elke nieuwe interactie die je gaat maken de development lifecycle. Je weet ondertussen dat je dit bij elke opdracht, issue of taak meerdere malen doet. Je gaat hieronder voor elke interactie een issue aanmaken en alle stappen doorlopen.
 
