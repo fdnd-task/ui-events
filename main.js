@@ -4,7 +4,7 @@
 */
 
 // Stap 1: selecteer het 12e linkje, en sla deze op in een variabele
-let interaction = document.querySelector('a[href="#interaction"]')
+let interaction = document.querySelector('a[href="#design"]')
 
 // Stap 2: voeg de (click) event listener toe aan de link, met een callback functie
 // In dit geval wordt de jumpHandler functie aangeroepen, zodra je op het linkje klikt
