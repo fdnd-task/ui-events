@@ -3,14 +3,16 @@
 
 Een oefening in ui-events waarin je experimenteert met muis, keyboard, touch én apparaat interactie en de afhandeling daarvan door middel van JavaScript.
 
-In het college S05W2-01-User-Interface-Events wordt deze opdracht uitgelegd.
-
-
-
-
 ## Doel van deze opdracht
 
-Op websites zijn veel verschillende vormen van interactie met gebruikers mogelijk. Deze worden *User Interface Events* (UI Events) genoemd. Als frontender wordt je geacht deze _events_ te beheersen. In onderstaande afbeelding zie je 20 verschillende links, aan tenminste 10 daarvan ga jij een gebruikersinteractie toevoegen.
+In het college S05W2-01-User-Interface-Events wordt deze opdracht uitgelegd.
+
+Op websites zijn veel verschillende vormen van interactie met gebruikers mogelijk. Deze worden *User Interface Events* (UI Events) genoemd. Als frontender wordt je geacht deze _events_ te beheersen. 
+
+
+## Werkwijze
+
+In onderstaande afbeelding zie je 20 verschillende links, aan tenminste 12 daarvan ga jij een gebruikersinteractie toevoegen.
 
 💪 Als je meer uitdaging wilt, kun je ze alle 20 van een interactie voorzien.
 
@@ -18,14 +20,11 @@ Op websites zijn veel verschillende vormen van interactie met gebruikers mogelij
 
 In deze opdracht experimenteer je met verschillende UI events en gaandeweg leer je de mogelijkheden van de browser beter kennen.
 
-
-## Aanpak
-
 Fork allereerst deze repository naar jouw eigen GitHub account, en Clone deze naar je eigen computer. Zet Issues aan, publiceer de repository alvast op GitHub Pages, en zorg dat je een live link bij About hebt staan.
 
 De eerste interactie (met een _click_ event) hebben we al voor je voorgedaan: als je op het 12e linkje (“Interaction”) klikt, springt deze omhoog. Je gaat nu voor de overige links ook interacties bedenken, maken en bespreken met een mentor.
 
-Omdat deze deeltaak uit maximaal 19 kleinere taken (er zijn namelijk nog 19 elementen!) bestaat, doorloop je voor elke nieuwe interactie die je gaat maken de development lifecycle. Je weet ondertussen dat je dit bij elke opdracht, issue of taak meerdere malen doet. Je gaat hieronder voor elke interactie een issue aanmaken en alle stappen doorlopen.
+Omdat deze deeltaak uit maximaal 20 kleinere taken (er zijn namelijk nog 19 elementen!) bestaat, doorloop je voor elke nieuwe interactie die je gaat maken de development lifecycle. Je weet ondertussen dat je dit bij elke opdracht, issue of taak meerdere malen doet. Je gaat hieronder voor elke interactie een issue aanmaken en alle stappen doorlopen.
 
 
 ### Analyseren
