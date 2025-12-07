@@ -71,7 +71,7 @@ Onderzoek hoe je de interactie zou kunnen maken met CSS en JavaScript. Als je he
 
 Maak eerst een snelle schets van de interactie en de feedback die je de gebruiker wilt geven.
 
-Maak een breakdownschets om te onderzoeken welke JS en CSS je nodig hebt. Zoek niet naar kant-en-klare oplossingen op Internet, maar werk ze zelf stap-voor-stap uit. Vraag een mentor of docent om hulp als je er niet uit komt.
+Maak een breakdownschets om te onderzoeken welke JS en CSS je nodig hebt. Zoek niet naar kant-en-klare oplossingen op Internet, maar werk ze zelf stap-voor-stap uit. Vraag een mentor of docent om hulp als je er niet uit komt. Samenwerken mag natuurlijk, maar het gaat om de oefening en het leren daarvan, niet het eindresultaat.
 
 Voeg je schetsen toe als comment op je issue, beschrijf de interactie die je wilt maken, en link naar bronnen die je gebruikt hebt of gaat gebruiken.
 
