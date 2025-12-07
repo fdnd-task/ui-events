@@ -1,13 +1,13 @@
 
 # User Interface Events
 
-Een oefening in ui-events waarin je experimenteert met muis, keyboard, touch én apparaat interactie en de afhandeling daarvan door middel van JavaScript.
+Een oefening in UI Events, waarin je experimenteert met muis, keyboard, touch én apparaat interactie en de afhandeling daarvan door middel van JavaScript en het geven van goede _feedback_.
 
 ## Doel van deze opdracht
 
 In het college S05W2-01-User-Interface-Events wordt deze opdracht uitgelegd.
 
-Op websites zijn veel verschillende vormen van interactie met gebruikers mogelijk. Deze worden *User Interface Events* (UI Events) genoemd. Als frontender wordt je geacht deze _events_ te beheersen. 
+Op websites zijn veel verschillende vormen van interactie met gebruikers mogelijk. Deze worden *User Interface Events* (UI Events) genoemd. Als frontender wordt je geacht deze _events_ te beheersen, en goede _feedback_ te geven.
 
 
 ## Werkwijze
@@ -29,35 +29,35 @@ Omdat deze deeltaak uit maximaal 20 kleinere taken (er zijn namelijk nog 19 elem
 
 Onderzoek kort welke interactie je nu gaat maken. De volgorde mag je zelf bepalen, afhankelijk van welke uitdaging je wilt. Ze zijn opgebouwd van simpel naar steeds moeilijker. Kies bijvoorbeeld “Laat de Development link shaken als ik erop dubbelklik”.
 
-Maak een nieuw issue aan op jouw ui-events repository, en geef deze de titel van je UI event, het linkje dat deze triggert, en de interactie (bijvoorbeeld “Laat de Development link shaken als ik erop dubbelklik”). Link naar specifieke bronnen die je denkt nodig te hebben, en beschrijf kort hoe je dit probleem denkt op te gaan lossen.
+Maak een nieuw issue aan op jouw ui-events repository, en geef deze de titel van je UI event, het linkje dat deze triggert, en de feedback die de gebruiker krijgt (bijvoorbeeld “Laat de Development link shaken als ik erop dubbelklik”). Link naar specifieke bronnen die je denkt nodig te hebben, en beschrijf kort hoe je dit probleem denkt op te gaan lossen.
 
 #### Hints en verwachting per link
 
-##### Basic events en animaties
+##### Basic events + feedback
 
-1. Frontend: Click + scale animatie (hint: transform scale)
-2. Design: Click + jump animatie
-3. &: Click + translate animatie (hint: translate)
-4. Development: Double click + shake animatie
-5. Sprint 5: Focus + kleuren animatie
-6. Fix: Mouseover + verander tekst in de link (hint: textContent)
-7. The: Mouseout + rotate animatie
-8. Flow: Mousedown en mouseup + flip en terug
-9. User: Keyup + kleur veranderen op basis van ingedrukte letter (hint: event.key)
-10. Interface: Keydown + blaas de link op als een ballon, en laat leeglopen als je het toetsenbord loslaat
-11. Events: Wheel of scroll + typografie wordt groter of kleiner, afhankelijk van hoe je scrollt (hint: delta)
-12. Interaction: Mousemove + radial gradient die de muis volgt (hint: event.clientX, event.clientY & style.setProperty)
+1. **Frontend**: Click → scale animatie (hint: transform scale)
+2. **Design**: Click → jump animatie (krijg je van ons)
+3. **&**: Click → translate animatie (hint: translate)
+4. **Development**: Double click → shake animatie
+5. **Sprint** 5: Focus → kleuren animatie
+6. **Fix**: Mouseover → verander tekst in de link (hint: textContent)
+7. **The**: Mouseout → rotate animatie
+8. **Flow**: Mousedown en mouseup → flip en terug
+9. **User**: Keyup → kleur veranderen op basis van ingedrukte letter (hint: event.key)
+10. **Interface**: Keydown → blaas de link op als een ballon, en laat leeglopen als je het toetsenbord loslaat
+11. **Events**: Wheel of scroll → typografie wordt groter of kleiner, afhankelijk van hoe je scrollt (hint: delta)
+12. **Interaction**: Mousemove → radial gradient die de muis volgt (hint: event.clientX, event.clientY & style.setProperty)
 
-##### Advanced events en animaties
+##### Advanced events + feedback
 
-13. User flow: Mousemove + de overige elementen vallen naar beneden
-14. Wireflow: Long press + linear gradient animatie
-15. Feedback: Pas na 10 keer klikken verandert de button kleur
-16. Feedforward: Escape toets indrukken op deze link + alle andere links worden grijs
-17. Labels: Deviceorientation of devicemotion + shake alle links
-18. States: Drag & drop + plaats deze link ergens anders
-19. Navigation: Deze link wil heel graag geklikt worden + speel een geluid als je klikt
-20. Code: Deze link wil niet geklikt worden
+13. **User flow**: Mousemove → de overige elementen vallen naar beneden
+14. **Wireflow**: Long press → linear gradient animatie
+15. **Feedback**: 10x klikken → verander de button kleur
+16. **Feedforward**: Escape toets indrukken op deze link → alle andere links worden grijs
+17. **Labels**: Deviceorientation of devicemotion → shake alle links
+18. **States**: Drag & drop → plaats deze link ergens anders
+19. **Navigation**: Deze link wil heel graag geklikt worden → speel een geluid als dat lukt
+20. **Code**: Deze link wil niet geklikt worden → sluit de pagina als dat toch lukt
 
 #### Bronnen
 
@@ -69,9 +69,9 @@ Maak een nieuw issue aan op jouw ui-events repository, en geef deze de titel van
 
 Onderzoek hoe je de interactie zou kunnen maken met CSS en JavaScript. Als je helemaal zonder ideeën zit, kunnen onderstaande bronnen helpen.
 
-Maak eerst een snelle schets van de interactie en feedback/feedforward die je de gebruiker wilt geven.
+Maak eerst een snelle schets van de interactie en de feedback die je de gebruiker wilt geven.
 
-Maak een breakdownschets om te onderzoeken welke JS en CSS je nodig hebt. Zoek niet naar kant-en-klare oplossingen op Internet, maar werk ze zelf stap-voor-stap uit.
+Maak een breakdownschets om te onderzoeken welke JS en CSS je nodig hebt. Zoek niet naar kant-en-klare oplossingen op Internet, maar werk ze zelf stap-voor-stap uit. Vraag een mentor of docent om hulp als je er niet uit komt.
 
 Voeg je schetsen toe als comment op je issue, beschrijf de interactie die je wilt maken, en link naar bronnen die je gebruikt hebt of gaat gebruiken.
 
@@ -91,7 +91,9 @@ Voeg je schetsen toe als comment op je issue, beschrijf de interactie die je wil
 
 Implementeer de interactie door `main.js` en `style.css` aan te vullen met jouw code. Denk telkens na over nieuwe namen voor CSS classes en variabelen in JS, zodat je eerder gemaakte code niet breekt!
 
-Kijk nog eens naar [het driestappenplan](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/programming-user-interaction.md#het-3-stappenplan-waarmee-je-bijna-alles-kan) van vorige week en de voorbeelden in `main.js`.
+Het kan helpen om je _feedback_ eerst in CSS uit te werken, en deze daarna pas met een UI Event te starten, door bijvoorbeeld een `class` te wijzigen. Kijk nog eens naar [het driestappenplan in JavaScript](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/programming-user-interaction.md#het-3-stappenplan-waarmee-je-bijna-alles-kan), en de voorbeelden in `main.js`.
+
+Vergeet ook niet dat je in JavaScript alles stap voor stap moet doen. Het kan helpen om hierbij eerst [in commentaar je plan uit te schrijven](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/programming-user-interaction.md#van-comments-naar-code).
 
 Tip: Gebruik in JavaScript regelmatig `console.log()` om te controleren of alles werkt zoals je verwacht.
 
@@ -99,6 +101,8 @@ Tip: Gebruik in JavaScript regelmatig `console.log()` om te controleren of alles
 ### Integreren
 
 Commit jouw code met de interactie die je zojuist geïmplementeerd hebt, en noem in je commit message je interactie en het issue nummer waar je aan werkt.
+
+Heb je per ongeluk aan meerdere interacties tegelijk gewerkt, zonder te committen? Onderzoek dan eens hoe Partial Commits je nu en in de toekomst kunnen gaan helpen.
 
 Push daarna je code naar GitHub.
 
@@ -120,5 +124,5 @@ Sluit daarna het issue, en ga door met de volgende interactie (door opnieuw te A
 
 Deze opdracht is done als:
 
-- [ ] Je hebt de 12 basis interacties stap voor stap voltooid, en je voortgang en breakdown schetsen zijn in issues opgenomen.
-- [ ] Optioneel: Je hebt enkele of alle advanced interacties stap voor stap voltooid, en je voortgang en breakdown schetsen zijn in issues opgenomen.
+- [ ] Je hebt de 12 basis interacties stap voor stap voltooid, en je voortgang, breakdown schetsen en testresultaten zijn in issues opgenomen.
+- [ ] Optioneel: Je hebt enkele of alle advanced interacties stap voor stap voltooid, en je voortgang, breakdown schetsen en testresultaten zijn in issues opgenomen.
