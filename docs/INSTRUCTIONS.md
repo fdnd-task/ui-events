@@ -12,24 +12,30 @@ Op websites zijn veel verschillende vormen van interactie met gebruikers mogelij
 
 ## Werkwijze
 
-In onderstaande afbeelding zie je 20 verschillende links, aan tenminste 12 daarvan ga jij een gebruikersinteractie toevoegen.
+In onderstaande afbeelding zie je 20 verschillende links, elke link wordt een andere gebruikersinteractie en animatie.
 
 ![](screenshot.png)
 
-In deze opdracht experimenteer je met verschillende UI events en gaandeweg leer je de mogelijkheden van de browser beter kennen. Zoek niet naar kant-en-klare oplossingen op Internet, maar werk ze zelf stap-voor-stap uit. Daar leer je het meest van.
+In deze opdracht experimenteer je met verschillende UI events en gaandeweg leer je de mogelijkheden van de browser beter kennen. 
+Zoek niet naar kant-en-klare oplossingen op Internet, maar werk ze zelf stap-voor-stap uit. Daar leer je het meest van.
 
-Fork allereerst deze repository naar jouw eigen GitHub account, en Clone deze naar je eigen computer. Zet Issues aan, publiceer de repository alvast op GitHub Pages, en zorg dat je een live link bij About hebt staan.
+Fork eerst deze repository naar jouw eigen GitHub account, en Clone deze naar je eigen computer. Zet Issues aan, publiceer de repository alvast op GitHub Pages, en zorg dat je een live link bij About hebt staan.
 
-De eerste interactie (met een _click_ event) hebben we al voor je voorgedaan: als je op het 2e linkje (“Design”) klikt, springt deze omhoog. Je gaat nu voor de overige links ook interacties bedenken, maken en bespreken met een mentor.
+De eerste interactie (met een _click_ event) hebben we al voor je voorgedaan: als je op het 2e linkje (“Design”) klikt, springt deze omhoog. 
+Je gaat nu voor de overige links ook interacties bedenken, maken en bespreken met een mentor.
 
-Omdat deze deeltaak uit maximaal 20 kleinere taken (er zijn namelijk nog 19 elementen!) bestaat, doorloop je voor elke nieuwe interactie die je gaat maken de _Development Lifecycle_. Je weet ondertussen dat je dit bij elke opdracht, issue of taak meerdere malen doet. Je gaat hieronder voor elke interactie een issue aanmaken en alle stappen doorlopen.
+Omdat deze deeltaak uit maximaal 20 kleinere taken (er zijn namelijk nog 19 elementen!) bestaat, doorloop je voor elke nieuwe interactie die je gaat maken de _Development Lifecycle_. 
+Je gaat voor elke interactie een issue aanmaken en alle stappen doorlopen.
+Ze zijn opgebouwd van simpel naar steeds moeilijker. 
 
 
 ### Analyseren
 
-Onderzoek kort welke interactie je nu gaat maken. De volgorde mag je zelf bepalen, afhankelijk van welke uitdaging je wilt. Ze zijn opgebouwd van simpel naar steeds moeilijker. Kies bijvoorbeeld “Laat de Development link shaken als ik erop dubbelklik”.
+Maak per interactie een nieuw issue aan, en geef deze de titel van je UI event, het linkje dat deze triggert, en de feedback die de gebruiker krijgt (bijvoorbeeld “Laat de Development link shaken als ik erop dubbelklik”). 
 
-Maak een nieuw issue aan op jouw ui-events repository, en geef deze de titel van je UI event, het linkje dat deze triggert, en de feedback die de gebruiker krijgt (bijvoorbeeld “Laat de Development link shaken als ik erop dubbelklik”). Link naar specifieke bronnen die je denkt nodig te hebben, en beschrijf kort hoe je dit probleem denkt op te gaan lossen.
+Onderzoek de interactie die je gaat maken. 
+Link naar specifieke bronnen die je denkt nodig te hebben, en beschrijf in eigen woorden hoe je dit probleem denkt op te gaan lossen.
+
 
 #### Hints en verwachting per link
 
@@ -67,13 +73,16 @@ Maak een nieuw issue aan op jouw ui-events repository, en geef deze de titel van
 
 ### Ontwerpen
 
-Onderzoek hoe je de interactie zou kunnen maken met CSS en JavaScript. Als je helemaal zonder ideeën zit, kunnen onderstaande bronnen helpen.
-
 Maak eerst een snelle schets van de interactie en de feedback die je de gebruiker wilt geven.
 
-Maak een breakdownschets om te onderzoeken welke JS en CSS je nodig hebt. Zoek niet naar kant-en-klare oplossingen op Internet, maar werk ze zelf stap-voor-stap uit. Vraag een mentor of docent om hulp als je er niet uit komt. Samenwerken mag natuurlijk, maar het gaat om de oefening en het leren daarvan, niet het eindresultaat.
+Onderzoek hoe je de interactie zou kunnen bouwen. 
+Maak een breakdownschets om te onderzoeken welke JS en CSS je nodig hebt. 
+Zoek niet naar kant-en-klare oplossingen op Internet, maar werk ze zelf stap-voor-stap uit. 
+Gebruik onderstaande bronnen.
+Vraag een mentor of docent om hulp als je er niet uit komt. 
+Samenwerken mag natuurlijk, maar het gaat om de oefening en het leren daarvan, niet het eindresultaat.
 
-Voeg je schetsen toe als comment op je issue, beschrijf de interactie die je wilt maken, en link naar bronnen die je gebruikt hebt of gaat gebruiken.
+Voeg je schetsen toe als comment op je issue, en link naar bronnen die je gebruikt hebt of gaat gebruiken.
 
 #### Bronnen
 
