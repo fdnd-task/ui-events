@@ -133,5 +133,5 @@ Sluit daarna het issue, en ga door met de volgende interactie (door opnieuw te A
 
 Deze opdracht is done als:
 
-- [ ] Je hebt de 12 basis interacties stap voor stap voltooid, en je voortgang, breakdown schetsen en testresultaten zijn in issues opgenomen.
+- [ ] Je hebt de 11 basis interacties stap voor stap voltooid, en je voortgang, breakdown schetsen en testresultaten zijn in issues opgenomen.
 - [ ] Optioneel: Je hebt enkele of alle advanced interacties stap voor stap voltooid, en je voortgang, breakdown schetsen en testresultaten zijn in issues opgenomen.
