@@ -31,7 +31,7 @@ Ze zijn opgebouwd van simpel naar steeds moeilijker.
 
 ### Analyseren
 
-Maak per interactie een nieuw issue aan, en geef deze de titel van je UI event, het linkje dat deze triggert, en de feedback die de gebruiker krijgt (bijvoorbeeld “Laat de Design link springen als je erop klik”). 
+Maak per interactie een nieuw issue aan. Geef deze een duidelijke titel, bijvoorbeeld “Laat de Design link springen als je erop klikt”.
 
 Onderzoek de interactie die je gaat maken. 
 Link naar specifieke bronnen die je denkt nodig te hebben, en beschrijf in eigen woorden hoe je dit probleem denkt op te gaan lossen.
