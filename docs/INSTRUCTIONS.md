@@ -46,7 +46,7 @@ Maak een nieuw issue aan op jouw ui-events repository, en geef deze de titel van
 9. **User**: Keyup → kleur veranderen op basis van ingedrukte letter (hint: event.key)
 10. **Interface**: Keydown → blaas de link op als een ballon, en laat leeglopen als je het toetsenbord loslaat
 11. **Events**: Wheel of scroll → typografie wordt groter of kleiner, afhankelijk van hoe je scrollt (hint: delta)
-12. **Interaction**: Mousemove → radial gradient die de muis volgt (hint: event.clientX, event.clientY & style.setProperty)
+12. **Interaction**: Mousemove → radial gradient die de muis volgt (hint: event.offsetX, event.offsetY & style.setProperty)
 
 ##### Advanced events + feedback
 
